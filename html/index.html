@@ -28,9 +28,47 @@
       ul {
         list-style-type: none;
       }
+
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      tfoot {
+        text-align: left;
+      }
     </style>
   </head>
   <body>
+    <table>
+      <thead>
+        <th colspan="2">Expenses</th>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketint</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounts</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
     <ul>
       <li>Home</li>
       <li>Contact</li>
