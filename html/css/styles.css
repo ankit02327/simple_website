@@ -45,3 +45,36 @@ tfoot {
 p {
   color: orange;
 }
+
+#products {
+  color: red;
+}
+
+.product {
+  background-color: pink;
+}
+
+a[target] {
+  color: green;
+}
+
+a[target="_blank"] {
+  color: orange;
+}
+
+a[href="https://duck.com"]
+{
+  color: brown;
+}
+
+a[href*="google"] {
+  color: green;
+}
+
+a[href^="https"] {
+  color: red;
+}
+
+a[href^="https"][href$=".com"] {
+  color: grey;
+}
